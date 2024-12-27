@@ -28,7 +28,7 @@ Com esses dados adicionais, seria possível implementar melhorias que minimizem 
 
 Buscando contornar esse problema, testamos colocar o desvio padrão dos dados como parte da função objetivo. Entretanto, não foi encontrada forma de minimizar o desvio garantindo a maximização da soma das linhas.
 
-# Autor
+### Autores
 
 | [<img src="https://avatars.githubusercontent.com/u/109088916?s=400&u=0128dd8ac18d3e18783c4f52c5bb89578f12311f&v=4" width=115><br><sub>Bruno Cavalcanti Santos</sub>](https://github.com/BrunoSantos14) |  [<img src="https://avatars.githubusercontent.com/u/117787474?v=4" width=115><br><sub>Victor Gomes</sub>](https://github.com/victoralmeida428) |
 | :---: | :---:
