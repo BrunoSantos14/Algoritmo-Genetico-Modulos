@@ -1,7 +1,7 @@
 # Algoritmo-Genetico-Modulos
 
 ### Descrição
-Na Controllab, empresa especializada em controle de qualidade para laboratórios, a equipe de análise de dados desenvolveu um pipeline para criar e alimentar um data warehouse, atendendo as demandas do setor e da empresa. Devido à complexidade do banco de dados em produção, a equipe de TI implementou endpoints para facilitar a extração de informações. 
+Em uma empresa, a equipe de análise de dados desenvolveu um pipeline para criar e alimentar um data warehouse, atendendo as demandas do setor e da empresa. Devido à complexidade do banco de dados em produção, a equipe de TI implementou endpoints para facilitar a extração de informações. 
 
 O endpoint principal permite buscar apenas um módulo por vez, correspondente a um ano de dados. Para melhorar o entendimento, módulo é um conjunto de exames definidos para o ensaio de proficiência. Cada módulo contém um volume variável de informações, dependendo do número de participantes do programa (quórum). Com mais de 800 módulos gerados anualmente, o processo de atualização módulo por módulo leva ao redor de 5 horas para ser concluído. 
 
