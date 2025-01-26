@@ -18,6 +18,10 @@ Por exemplo, o módulo 58 possui mais de 1 milhão de linhas. Colocá-lo em para
 ### Resultados
 Os resultados alcançados foram excelentes, com uma redução de 80% no tempo total do ETL, permitindo a execução do processo em apenas 1 hora. Como o processo de atualização tem o intuito de ser diário, o uso de paralelismo mostra-se indispensável. O algoritmo genético foi aplicado em looping, buscando otimizar os grupos em cada iteração. Os 10 primeiros grupos gerados apresentaram resultados próximos ao limite de 200 mil linhas, evidenciando o bom ajuste do algoritmo.
 
+Outro ponto chave foi a utilização da linguagem Golang, que permitiu gerenciar a memória do sistema de forma eficiente e executar o paralelismo com alta performance.
+
+![Gerenciamento de Memória](go.jpg)
+
 ### Melhorias
 Embora os resultados sejam promissores, uma melhoria relevante é incluir o tempo de requisição como variável. O paralelismo apresenta maior eficiência quando as requisições de um mesmo grupo possuem tempos de resposta similares. No entanto, atualmente não dispomos do tempo médio por módulo, e sua obtenção envolve desafios, como a necessidade de estabilidade do servidor durante todo o período de análise para garantir a confiabilidade dos dados de tempo. 
 
